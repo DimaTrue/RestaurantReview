@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {
   View,
-  Text,
   StyleSheet,
   TextInput,
   FlatList,
@@ -30,11 +29,11 @@ export default class RestaurantList extends Component {
   }
 
   render() {
-    debugger
     return (
       <View style={{
         flex: 1,
-        backgroundColor: '#FFFFFF'
+        backgroundColor: '#FFFFFF',
+        paddingTop: 10
       }}>
         <View style={{
           marginTop: 30,
